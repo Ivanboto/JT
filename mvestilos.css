@@ -1,0 +1,96 @@
+body{
+	background-image: url(avion.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.titulo{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#misvueloslbl{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.contenedor{
+	width: 100%;
+	padding: 15px;
+}
+
+.formulario{
+	width: auto;
+	text-align: center;
+	margin-top: 150px;
+	padding: 3px;
+	background-color: #ffffff;
+}
+
+.formulario input{
+	margin-bottom: 15px;
+	padding: 5px;
+	border: 1px solid #aaa;
+}
+
+#ipersona, #illave{
+	min-width: 50px;
+	text-align: center;
+	color: #999;
+}
+
+#usuario, #contraseña{
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	border: none;
+}
+
+#continuar{
+	border: none;
+	width: 100%;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #000000;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#continuar:hover{
+	background-color: #faa21e;
+}
+
+ul{
+	padding: 0;
+}
+
+#olvidecontraseña{
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+@media(min-width: 768px){
+	.formulario{
+		margin: auto;
+		margin-top: 150px;
+		width: 500px;
+		border-radius: 3.5%;
+	}
+}
+
+#btnregistrate{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
